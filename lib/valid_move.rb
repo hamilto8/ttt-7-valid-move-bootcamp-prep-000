@@ -3,6 +3,8 @@ def valid_move?(array, index)
   if(index >= 1 && index <= 9)
     if(position_taken?(array, index) == false)
       return true
+    else
+      return false
     end
   end
 end
