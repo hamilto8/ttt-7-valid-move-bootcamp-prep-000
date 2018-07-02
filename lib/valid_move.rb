@@ -4,6 +4,7 @@ def valid_move?(array, index)
 
     if(position_taken(array, index) == true)
       return true
+    end
   else
     return false
   end
