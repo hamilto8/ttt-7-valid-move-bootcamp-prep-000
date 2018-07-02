@@ -3,7 +3,7 @@ def valid_move?(array, index)
   if(index >= 1 && index <= 9)
     position_taken?(array, index)
   else
-    return "Invald Move"
+    return false
   end
 end
 
