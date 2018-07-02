@@ -1,6 +1,6 @@
 # code your #valid_move? method here
-def valid_move?(choice)
-  if(choice >= 1 && choice <= 9)
+def valid_move?(array, index)
+  if(index >= 1 && index <= 9)
     position_taken(array, choice)
   else
     return false
